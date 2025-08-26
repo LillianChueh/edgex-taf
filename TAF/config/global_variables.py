@@ -43,6 +43,7 @@ if SECURITY_SERVICE_NEEDED == 'true':
     CORE_METADATA_PORT = "8443/core-metadata"
     CORE_COMMAND_PORT = "8443/core-command"
     CORE_KEEPER_PORT = "8443/core-keeper"
+    PROXY_AUTH_PORT = "8443"
     SUPPORT_NOTIFICATIONS_PORT = "8443/support-notifications"
     RULESENGINE_PORT = "8443/rules-engine"
     ONVIF_CAMERA_PORT = "8443/device-onvif-camera"
