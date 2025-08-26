@@ -43,6 +43,7 @@ if SECURITY_SERVICE_NEEDED == 'true':
     CORE_METADATA_PORT = "8443/core-metadata"
     CORE_COMMAND_PORT = "8443/core-command"
     CORE_KEEPER_PORT = "8443/core-keeper"
+    PROXY_AUTH_PORT = "8443"
     SUPPORT_NOTIFICATIONS_PORT = "8443/support-notifications"
     RULESENGINE_PORT = "8443/rules-engine"
     ONVIF_CAMERA_PORT = "8443/device-onvif-camera"
@@ -57,6 +58,7 @@ else:
     RULESENGINE_PORT = 59720
     ONVIF_CAMERA_PORT = 59984
     SUPPORT_SCHEDULER_PORT = 59863
+    PROXY_AUTH_PORT = "8443"
 
 
 # External MQTT Auth
